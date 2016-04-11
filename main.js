@@ -1,3 +1,5 @@
 $(window).on('load', function(){
-	$('#nexus').addClass('animated fadeIn');
+	$('nexus').on('load', function(){
+		$('#nexus').addClass('animated fadeIn');
+	});
 });
