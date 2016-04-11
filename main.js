@@ -1,5 +1,10 @@
-$(window).on('load', function(){
-	$('nexus').on('load', function(){
-		$('#nexus').addClass('animated fadeIn');
-	});
+$(document).ready(function(){
+	$('#nexus').hide();
+	setTimeout(function() { 
+
+		$('#nexus').show();
+		$('#nexus').addClass('animated fadeIn') 
+
+	}, 1000)
+
 });
