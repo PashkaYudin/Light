@@ -1,0 +1,53 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+html, body {
+    color: #333;
+    padding: 0!important;
+    margin: 0!important;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#description {
+	display: hidden;
+	padding-top: 50px;
+}
+
+#description h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+#description h3 {
+	margin: 0!important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+#title {
+	padding-top: 100px;
+}
+
+#nexus {
+}
+
+#nexus img {
+	width: 100%;
+}
+
+#links {
+	padding-top: 250px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	font-weight: 700;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #337ab7;
+}
