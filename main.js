@@ -1,4 +1,3 @@
-$(document).ready(function(){
+$(window).on('load', function(){
 	$('#nexus').addClass('animated fadeIn');
-	// $('h1, h3').addClass('animated fadeInLeft');
 });
